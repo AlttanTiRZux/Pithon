@@ -1,0 +1,31 @@
+class Dog:
+    
+    
+    species= "Canis Familiars"
+    
+    
+    def __init__(self, age=5, weight=15, breed="Yorkshire Terrier",sound="woof"):
+        self.age=age
+        self.weight=weight
+        self.breed=breed
+        self.sound=sound
+        
+    
+    
+    
+    
+    
+    def bark(self):
+        print("i am a" + self.breed)
+        print(self.sound)
+        
+
+    
+    
+    
+    
+    
+dog1=Dog()
+dog2=Dog(6, 20, "Doberman", "Greeek")
+Dog1.bark()
+Dog2.bark()
